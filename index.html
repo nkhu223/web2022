@@ -3,12 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Wishful Whiskers</title>
   </head>
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Wishful Whiskers</title>
-</head>
+
   <body>
     <header>
       <h1>Wishful Whiskers</h1>
@@ -16,6 +14,7 @@
         <img src="images/wwlogo.png" alt="The Wishful Whiskers Logo">
       </a>
     </header>
+
     <nav>
       <ul>
         <li><a href="findacat.html">Find a Cat</a></li>
@@ -24,21 +23,52 @@
       </ul>
     </nav>
 
-    <h2>Find a Cat:</h2>
-    <img src="images/whiskers.png" alt="A picture of Whiskers the Cat">
-    <p>Whiskers</p>
-    <img src="images/snowball.png" alt="A picture of Snowball the Cat">
-    <p>Snowball</p>
-    <img src="images/mittens.png" alt="A picture of Mittens the Cat">
-    <p>Mittens</p>
+    <div class="wrapper">
+      <section id="primary">
+      <article id="mainart">
+      <h2>Find a Cat:</h2>
+
+      <figure id="whiskers">
+        <img src="images/whiskers.png"
+        alt="A picture of Whiskers the Cat"
+        title="A picture of Whiskers the Cat">
+        <figcaption>Whiskers</figcaption>
+      </figure>
+
+      <figure id="snowball">
+        <img src="images/snowball.png"
+        alt="A picture of Snowball the Cat"
+        title="A picture of Snowball the Cat">
+        <figcaption>Snowball</figcaption>
+      </figure>
+
+      <figure id="mittens">
+        <img src="images/mittens.png"
+        alt="A picture of Mittens the Cat"
+        title="A picture of Mittens the Cat">
+        <figcaption>Mittens</figcaption>
+      </figure>
 
     <button type="button">View More Cats</button>
+  </article>
+</section>
+
+<section id="secondary">
+  <article id="subart">
 
     <h2>About Us:</h2>
     <p>Here at Wishful Whiskers, we believe in giving every cat and kitten a second chance
     at life. That is why we are so proud to give our time to making sure that every stray
     cat in the Lexington area has a place to call home.</p>
-    <img src="images/kirby.png" alt="A picture of the founder's cat, Kirby">
+  </article>
+  <figure>
+    <img src="images/kirby.png"
+    alt="A picture of the founder's cat, Kirby"
+    title="A picture of the founder's cat, Kirby">
+    <figcaption>Kirby</figcaption>
+  </figure>
+</section>
+</div>
 
     <nav>
       <ul>
