@@ -12,16 +12,17 @@ body {
 header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: end;
-  height: 3rem;
+  height: 5rem;
   background-color: #ffb5d3;
   color: #fff;
-  font-size: .5rem;
+  font-size: 1rem;
   text-transform: uppercase;
+  justify-items: end;
+  text-align: center;
 }
 
 header img {
-  height: 6em;
+  height: 5em;
 }
 
 nav {
@@ -88,8 +89,9 @@ figure figcaption {
 }
 
 #secondary figure img {
-  width: 25rem;
-  height: 25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 15px solid #91e7ff;
   border-radius: 45px;
 }
@@ -99,4 +101,10 @@ figure figcaption {
   border-radius: 45px;
   padding: 50px;
   text-align: center;
+}
+
+section {
+  background-image: url(images/wwlogo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
