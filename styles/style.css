@@ -83,7 +83,6 @@ figure figcaption {
 }
 
 #secondary {
-  display: grid;
   grid-template-columns: repeat(minmax(240px, 1fr));
   padding: 1em 1em 1em 1em;
 }
