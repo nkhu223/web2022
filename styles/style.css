@@ -109,3 +109,37 @@ section {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+#aboutprime {
+  font-size: 2rem;
+  padding: 1em 2em 1em 2em;
+  padding-left: 100px;
+
+}
+
+#aboutprime h2 {
+  text-align: center;
+}
+
+#kirby {
+  text-align: center;
+}
+
+#kirby img {
+  padding-left: 100px;
+}
+
+#team {
+  padding: 1em 1em 1em 1em;
+}
+#team h2 {
+  text-align: center;
+}
+
+#team figure img {
+    vertical-align: top;
+    width: 18em;
+    height: 25em;
+    border: 5px dotted #91e7ff;
+    border-radius: 45px;
+}
