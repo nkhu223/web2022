@@ -129,25 +129,9 @@ section {
   text-align: center;
 }
 
-#kirby {
-  text-align: center;
-}
-
-#kirby img {
-  padding-left: 100px;
-}
-
-#team {
-  padding: 1em 1em 1em 1em;
-}
-#team h2 {
-  text-align: center;
-}
-
 #team figure img {
-    vertical-align: top;
     width: 18em;
     height: 25em;
-    border: 5px dotted #91e7ff;
+    border: 5px dotted #fff;
     border-radius: 45px;
 }
